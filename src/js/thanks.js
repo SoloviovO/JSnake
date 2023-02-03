@@ -1,4 +1,4 @@
-const container = document.getElementById('container-thanks');
+const container = document.querySelector('#container-thanks');
 const colors = ['#056CF2', '#05AFF2', '#F2E205', '#F28705', '#A62103'];
 const SQUARES = 1000;
 
