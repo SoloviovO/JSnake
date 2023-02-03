@@ -10,7 +10,7 @@
 }
 .face {
   width: 230px;
-  height: 340px;
+  height: 335px;
   transition: 0.4s;
 }
 .face1 {
@@ -21,7 +21,7 @@
   align-content: center;
   align-items: center;
   z-index: 1;
-  transform: translateY(240px);
+  transform: translateY(235px);
 }
 .card:hover .face.face1 {
   transform: translateY(0);
