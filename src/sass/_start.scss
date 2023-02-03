@@ -10,12 +10,14 @@
 .box-title {
   display: flex;
   justify-content: center;
+  margin-bottom: 35px;
 }
 
 .title-ask {
   font-size: 42px;
-  color: $redLight;
+  color: #e5cfcf;
   letter-spacing: 1px;
+  margin-top: 115px;
 }
 
 .btn-ask {
@@ -31,4 +33,19 @@
   border-radius: 10px;
   cursor: pointer;
   margin: 40px 5px;
+  color: #e5cfcf;
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    red,
+    yellow,
+    violet,
+    purple,
+    blue,
+    red
+  );
+  background-size: 800%;
+  border-radius: 20px;
+  transform: translate(0%, -50%);
 }

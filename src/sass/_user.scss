@@ -130,14 +130,15 @@
 }
 .user-title {
   text-align: center;
-  color: #eba65b;
+  color: #e5cfcf;
   font-size: 22px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 .user-about {
   font-size: 18px;
-  color: #50dfdb;
+  color: #e5cfcf;
   line-height: 150%;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -149,5 +150,5 @@
   content: '';
   width: 15px;
   height: 15px;
-  border: 3px solid #eba65b;
+  border: 3px solid #50dfdb;
 }

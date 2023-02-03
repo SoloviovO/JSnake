@@ -23,8 +23,8 @@
   height: 80px;
   width: 80px;
   position: absolute;
-  background: linear-gradient(315deg, $blueLight, $redLight);
-  background: linear-gradient(135deg, $blueLight, $redLight);
+  background: linear-gradient(315deg, red, orange);
+  background: linear-gradient(135deg, red, orange);
   border-radius: 50%;
   bottom: 90px;
   right: -50px;
@@ -35,8 +35,8 @@
   height: 80px;
   width: 80px;
   position: absolute;
-  background: linear-gradient(135deg, $blueLight, $redLight);
-  background: linear-gradient(315deg, $blueLight, $redLight);
+  background: linear-gradient(315deg, red, orange);
+  background: linear-gradient(135deg, red, orange);
   border-radius: 50%;
   top: 90px;
   left: -50px;
@@ -44,7 +44,7 @@
 }
 
 #time {
-  color: $redLight;
+  color: #e5cfcf;
   font-size: 40px;
   display: inline-block;
 }
@@ -53,11 +53,11 @@
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: $blueLight;
+  color: #50dfdb;
   text-align: center;
 }
 #midday {
-  color: $redLight;
+  color: #e5cfcf;
   display: inline-block;
   font-size: 30px;
 }
